@@ -1,5 +1,5 @@
 number1 = 10
-number2= 5
+number2 = 5
 
 sum_of_numbers = number1+number2
 difference_of_numbers = number1-number2

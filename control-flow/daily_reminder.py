@@ -1,6 +1,6 @@
-task = input('Enter a the task: ')
-priority = input('Enter the tasks priority (high,medium,low): ')
-time_bound = input('Is the task time bound? (yes/no): ')
+task = input('Enter your tasks: ')
+priority = input('Priority (high,medium,low): ')
+time_bound = input('Is it time bound? (yes/no): ')
 
 match priority:
     

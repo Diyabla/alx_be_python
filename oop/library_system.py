@@ -7,7 +7,7 @@ class Book:
 class Ebook(Book):
     def __init__(self, title, author, file_size):
         super().__init__(title, author)
-        self.file_size = file_size  # in KB
+        self.file_size = file_size
 
     def __str__(self):
         return f"Ebook: {self.title} by {self.author}, File Size: {self.file_size}KB"
@@ -24,7 +24,7 @@ class PrintBook(Book):
 
 class Library:
     def __init__(self):
-        self.books = []  # list to store Book, Ebook, and PrintBook objects
+        self.books = []
 
     def add_book(self, book):
         self.books.append(book)
